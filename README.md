@@ -30,8 +30,9 @@ Initialize the custom HashFS structural architecture metadata blocks on a disk i
 
 ```Bash
 sudo mkfs.hashfs /dev/sdX
-(Replace sdX with your targeted storage device node name)
 ```
+(Replace sdX with your targeted storage device node name)
+
 ## 2. Mount the Filesystem
 Create a clean mount directory point and launch the driver execution service daemon in the foreground to monitor operations:
 
