@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <ctype.h>
+#include <stdint.h>
 
 #define BLOCK_SIZE 4096
 #define MAX_FILES 64
