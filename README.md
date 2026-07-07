@@ -40,6 +40,7 @@ Create a clean mount directory point and launch the driver execution service dae
 mkdir -p ~/usb_mnt
 sudo hashfs /dev/sdX ~/usb_mnt -f -o allow_other
 ```
+(Dont worry if it doesnt give any output. Its normal.)
 ## 3. File Operations
 Open a secondary terminal session window to interact with your secure storage mount:
 
